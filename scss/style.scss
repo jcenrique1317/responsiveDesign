@@ -31,8 +31,7 @@ header{
     background-color: $primary-color; //Color de fondo primario
     padding: 2rem 1.5rem; //Evita que el texto toque los bordes
     gap: 2rem; //Ajusta la separación entre elementos sin afectar la alineación
-    background-color: $primary-color;
-
+    
     img{
         max-width: 180px;
         height: auto;
@@ -62,6 +61,42 @@ header{
             line-height: 1.8rem;
             margin-top: 2.5rem;
             color: $secondary-text;
+        }
+
+        .header-button{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 1.5rem;
+            padding: 1rem 2rem;
+            background-color: $secondary-color ;
+            //Sombra
+            box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+            border: none;
+            border-radius: 5px; 
+            font-size: 1.4rem;
+            font-weight: bold;
+            text-decoration: none;
+            color: black;
+            width: 90%;
+            max-width: 250px;
+            transition: background-color 0.3s ease;
+
+            :hover{
+                background-color: #3d39c2;
+            }
+
+            span{
+                 display: flex;
+                 align-items: center;
+                 margin-left: 10px;
+
+                 svg{
+                    width: 20px;
+                    height: 20px;
+                    fill: $primary-text;
+                 }
+             }
         }
     }
 }
