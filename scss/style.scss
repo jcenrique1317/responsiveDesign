@@ -17,7 +17,64 @@ $error-color: #EF4444; //Errores, alertas criticas
 
 html{
     font-size: 62.5%;
-    font-family: "Montserrat", serif;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+body{
+    background-color: $primary-color; //Fondo principal
+    color: $primary-text; //Texto en color claro para contraste
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh; //Se adapta al tamaño de pantalla
+    text-align: center;
+    background-color: $primary-color; //Color de fondo primario
+    padding: 2rem 1.5rem; //Evita que el texto toque los bordes
+    gap: 2rem; //Ajusta la separación entre elementos sin afectar la alineación
+
+
+    img{
+        max-width: 180px;
+        height: auto;
+        margin-top: 0
+    }
+
+    .header-title-container{
+        width: 90%;
+        max-width: 600px; //Limita el ancho en mobile
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 1rem 0;
+        gap: 1.5rem; //Asegura que haya espacio entre el título y el texto
+
+        h1{
+            font-size: 2.2rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            word-wrap: break-word;
+            word-break: break-word;
+            overflow-wrap: break-word;
+            max-width: 100%; //Evita que no se desborde
+            
+        }
+
+        p{
+            font-size: 1.6rem;
+            font-weight: 400;
+            margin-bottom: 1rem;
+            word-wrap: break-word;
+            word-break: break-word;
+            overflow-wrap: break-word;
+            max-width: 100%; //Evita que no se desborde
+        }
+    }
 }
 
 
