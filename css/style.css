@@ -9,27 +9,21 @@ html {
   font-family: "Montserrat", sans-serif;
 }
 
-body {
-  background-color: #1E1E2E;
-  color: #EAEAEA;
-}
-
 header {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 100%;
-  min-height: 100vh;
   text-align: center;
   background-color: #1E1E2E;
   padding: 2rem 1.5rem;
   gap: 2rem;
+  background-color: #1E1E2E;
 }
 header img {
   max-width: 180px;
   height: auto;
-  margin-top: 0;
 }
 header .header-title-container {
   width: 90%;
@@ -42,20 +36,16 @@ header .header-title-container {
   gap: 1.5rem;
 }
 header .header-title-container h1 {
-  font-size: 2.2rem;
-  font-weight: 700;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: #EAEAEA;
   margin-bottom: 0.5rem;
-  word-wrap: break-word;
-  word-break: break-word;
-  overflow-wrap: break-word;
-  max-width: 100%;
 }
 header .header-title-container p {
-  font-size: 1.6rem;
-  font-weight: 400;
-  margin-bottom: 1rem;
-  word-wrap: break-word;
-  word-break: break-word;
-  overflow-wrap: break-word;
-  max-width: 100%;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  margin-top: 2.5rem;
+  color: #94A3b8;
 }/*# sourceMappingURL=style.css.map */
