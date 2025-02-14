@@ -101,7 +101,26 @@ header{
     }
 }
 
+main{
+    width: 100%;
+    height: auto;
+    background-color: $background-light-color;
+    
+    .main-exchange-container{
+        width: 100%;
+        height: auto;
+        padding-bottom: 30px;
+        padding-top: 80px;
+        text-align: center;
 
+        .main-exchange-container-title{
+            width: 90%;
+            min-width: 288px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+    }
+}
 
 
 

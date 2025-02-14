@@ -78,4 +78,23 @@ header .header-title-container .header-button span svg {
   width: 20px;
   height: 20px;
   fill: #EAEAEA;
+}
+
+main {
+  width: 100%;
+  height: auto;
+  background-color: #f5f5f5;
+}
+main .main-exchange-container {
+  width: 100%;
+  height: auto;
+  padding-bottom: 30px;
+  padding-top: 80px;
+  text-align: center;
+}
+main .main-exchange-container .main-exchange-container-title {
+  width: 90%;
+  min-width: 288px;
+  max-width: 900px;
+  margin: 0 auto;
 }/*# sourceMappingURL=style.css.map */
