@@ -9,6 +9,8 @@ $primary-text: #EAEAEA; //Textos sobre fondo oscuro
 $secondary-text: #94A3b8; //Subtítulos, menos prominentes
 $error-color: #EF4444; //Errores, alertas criticas
 
+//Reset general
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -20,6 +22,12 @@ html{
     font-family: "Montserrat", sans-serif;
 }
 
+body{
+    color: $background-light-color;
+}
+
+
+//HEADER
 
 header{
     display: flex;
@@ -52,14 +60,12 @@ header{
             font-weight: bold;
             line-height: 2.6rem;
             color: $primary-text;
-            margin-bottom: 0.5rem;
         }
 
         p{
             font-size: 1.4rem;
             font-weight: 500;
             line-height: 1.8rem;
-            margin-top: 2.5rem;
             color: $secondary-text;
         }
 
@@ -67,7 +73,6 @@ header{
             display: flex;
             align-items: center;
             justify-content: center;
-            margin-top: 1.5rem;
             padding: 1rem 2rem;
             background-color: $secondary-color ;
             //Sombra
@@ -101,11 +106,19 @@ header{
     }
 }
 
+
+//MAIN
+
+
+
+
+
 main{
     width: 100%;
     height: auto;
-    background-color: $background-light-color;
     
+    //SECCIÓN PRINCIPAL 
+
     .main-exchange-container{
         width: 100%;
         height: auto;
@@ -113,18 +126,17 @@ main{
         padding-top: 80px;
         text-align: center;
 
-        .main-exchange-container-title{
-            width: 90%;
-            min-width: 288px;
-            max-width: 900px;
-            margin: 0 auto;
-        }
+        // .main-exchange-container-title{
+        //     width: 90%;
+        //     min-width: 288px;
+        //     max-width: 900px;
+        //     margin: 0 auto;
+        // }
 
         .background-img{
             img{
                 width: 200px;
                 height: 200px;
-                margin: 0 auto;
                 margin-bottom: 50px;
                 background-size: cover;
                 background-position: center;
@@ -153,12 +165,17 @@ main{
     }
 
 
+    //TABLA DE CRIPTOMONEDAS
     .main-tables-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
         .main-currency-table{
             width: 70%;
             min-width: 235px;
             max-width: 500px;
-            height: 360px;
             margin: 0 auto;
             font-family: 'Open Sans', sans-serif;
 
@@ -166,7 +183,6 @@ main{
                 margin-bottom: 15px;
                 font-size: 1.8rem;
                 font-weight: bold;
-                line-height: 2.3rem;
                 color: $secondary-color;
 
             }
@@ -175,12 +191,12 @@ main{
                 width: 90%;
                 min-width: 230px;
                 max-width: 300px;
-                height: 250px;
+                height: auto;
                 margin: 0 auto;
 
                 table{
                     width: 100%;
-                    height: 100%;
+                    border-collapse: collapse;
                 }
 
                 td{
@@ -190,6 +206,52 @@ main{
                     line-height: 1.9rem;
                     color: $secondary-text;
                     background-color: white;
+                    padding: 10px;
+                }
+
+                //ALINEACIÓN DE LAS CELDAS DE PRECIOS
+
+
+                .table__right{
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-end;
+                    font-size: 1.4rem;
+                    font-weight: normal;
+                    color: $secondary-text;
+                    gap: 10px;
+                    margin-left: 15px; 
+                }
+
+                img{
+                    width: 20px;
+                    height: 20px;
+                    vertical-align: middle;
+                }
+
+                .table__top-left{
+                     border-radius: 15px 0 0 ;
+                }
+
+                .table__top-right{
+                     border-radius: 0 15px 0;
+                }
+
+                .table__bottom-right{
+                     border-radius: 0 0 15px 0;
+                }
+
+                .table__bottom-left{
+                     border-radius: 0 0 0 15px;
+                }
+
+            }
+
+            .currency-table-date{
+                p{
+                    margin-top: 15px;
+                    font-size: 1.4rem;
+                    color: $secondary-color;
                 }
             }
         }
