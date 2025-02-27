@@ -248,11 +248,24 @@ main{
             }
 
             .currency-table-date{
+                display: inline-block;
+                width: auto;
+                max-width: 190px;
+                margin: 15px auto 0;
+                font-size: 1.4rem;
+                padding: 5px 10px;
+                background-color: $secondary-text ;
+                border-radius: 8px;
+                text-align: center;
                 p{
-                    margin-top: 15px;
-                    font-size: 1.4rem;
+                    display: block;
+                    font-size: 1.2rem;
+                    line-height: 1.4rem;
                     color: $secondary-color;
+                    margin: 0;
+                    padding: 0;
                 }
+              
             }
         }
     }

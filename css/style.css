@@ -180,8 +180,22 @@ main .main-tables-container .main-currency-table .currency-table-container .tabl
 main .main-tables-container .main-currency-table .currency-table-container .table__bottom-left {
   border-radius: 0 0 0 15px;
 }
-main .main-tables-container .main-currency-table .currency-table-date p {
-  margin-top: 15px;
+main .main-tables-container .main-currency-table .currency-table-date {
+  display: inline-block;
+  width: auto;
+  max-width: 190px;
+  margin: 15px auto 0;
   font-size: 1.4rem;
+  padding: 5px 10px;
+  background-color: #94A3b8;
+  border-radius: 8px;
+  text-align: center;
+}
+main .main-tables-container .main-currency-table .currency-table-date p {
+  display: block;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
   color: #4f46e5;
+  margin: 0;
+  padding: 0;
 }/*# sourceMappingURL=style.css.map */
