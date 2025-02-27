@@ -198,4 +198,33 @@ main .main-tables-container .main-currency-table .currency-table-date p {
   color: #4f46e5;
   margin: 0;
   padding: 0;
+}
+main .main-product-detail {
+  position: relative;
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+  padding: 20px 10px;
+  background-color: #4f46e5;
+}
+main .main-product-detail .product-detail--title {
+  width: 90%;
+  min-width: 288px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+}
+main .main-product-detail .product-detail--title h2 {
+  margin-bottom: 20px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+}
+main .main-product-detail .product-detail--title p {
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #94A3b8;
 }/*# sourceMappingURL=style.css.map */
