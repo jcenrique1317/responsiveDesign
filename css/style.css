@@ -227,4 +227,31 @@ main .main-product-detail .product-detail--title p {
   font-weight: 500;
   line-height: 1.8rem;
   color: #94A3b8;
+}
+main .main-product-detail .product-cards--container .product-detail--card {
+  width: 90%;
+  min-width: 288px;
+  max-width: 400px;
+  height: 150px;
+  margin: 15px auto;
+  padding: 15px;
+  background-color: #1E1E2E;
+  border-radius: 5px;
+  box-shadow: 0 40px 8px rgba(0, 0, 0, 0.16);
+}
+main .main-product-detail .product-cards--container .product-detail--card svg {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-bottom: 10px;
+}
+main .main-product-detail .product-cards--container .product-detail--card .product--card-title {
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+}
+main .main-product-detail .product-cards--container .product-detail--card .product--card-body {
+  font-weight: 500;
+  line-height: 1.8rem;
 }/*# sourceMappingURL=style.css.map */
