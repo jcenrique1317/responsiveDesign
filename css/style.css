@@ -271,4 +271,30 @@ main .bitcoin-img-container h2 {
   line-height: 2.6rem;
   color: #EAEAEA;
   text-align: center;
+}
+main .main-plans-container {
+  width: 100%;
+  min-width: 320px;
+  padding-bottom: 70px;
+}
+main .main-plans-container .plans--title {
+  width: 90%;
+  min-width: 288px;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+main .main-plans-container .plans--title h2 {
+  padding-top: 50px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: #1E1E2E;
+}
+main .main-plans-container .plans--title p {
+  padding-top: 30px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #94A3b8;
 }/*# sourceMappingURL=style.css.map */
