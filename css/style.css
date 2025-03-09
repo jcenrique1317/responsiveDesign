@@ -297,4 +297,16 @@ main .main-plans-container .plans--title p {
   font-weight: 500;
   line-height: 1.8rem;
   color: #94A3b8;
+}
+main .main-plans-container .plans-container--slider .plans-container--card {
+  position: relative;
+  width: 70%;
+  min-width: 230px;
+  max-width: 300px;
+  height: 250px;
+  margin: 50px auto 0;
+  padding: 0 15px;
+  background-color: #ffd700;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
 }/*# sourceMappingURL=style.css.map */
